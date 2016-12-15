@@ -12,6 +12,49 @@ HTML5のサンプルソース置き場
     + メタデータ(description)の設定
 * 003.link_shortcut_icon
     + アイコン(shortcut icon)
+* 004.style_tag
+    + スタイルタグを設定してみる
+
+## メモ
+
+### タグ
+
+```
+<タグ>文章</タグ>
+<タグ>
+<タグ/>
+```
+
+### 属性
+
+```
+<タグ 属性名='値'>文章</タグ>
+```
+
+### id
+
+一つしかない要素
+
+```HTML5
+<p id="slide1">スライド1</p>
+```
+
+### class
+
+複数ある要素
+
+```HTML5
+<p class="active">クラス名activeを指定</p>
+<p class="active item">クラス名activeとitemを指定</p>
+```
+
+### style
+
+タグのスタイルを直接指定
+
+```HTML5
+<p style="text-align:center;">スタイル指定</p>
+```
 
 ## 参考URL
 
