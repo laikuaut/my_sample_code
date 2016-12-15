@@ -6,9 +6,9 @@ HTML5のサンプルソース置き場
 
 ### learn_sample
 
-* 001.hello_world
+* [001.hello_world](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/001.hello_world.html)
     + HTML5の基本 Hello World
-* 002.meta_description
+* [002.meta_description](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/002.meta_description.html)
     + メタデータ(description)の設定
 * 003.link_shortcut_icon
     + アイコン(shortcut icon)
