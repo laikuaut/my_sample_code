@@ -6,8 +6,11 @@ HTML5のサンプルソース置き場
 
 ### learn_sample
 
-* 001.hello_world.html
+* 001.hello_world
     + HTML5の基本 Hello World
+* 002.meta_description
+    + メタデータ(description)の設定
+*
 
 ## 参考URL
 
