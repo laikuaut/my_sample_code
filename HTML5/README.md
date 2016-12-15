@@ -10,7 +10,8 @@ HTML5のサンプルソース置き場
     + HTML5の基本 Hello World
 * 002.meta_description
     + メタデータ(description)の設定
-*
+* 003.link_shortcut_icon
+    + アイコン(shortcut icon)
 
 ## 参考URL
 
