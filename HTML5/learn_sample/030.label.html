@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>030.label</title>
+    </head>
+    <body>
+        <form class="sample" action="index.html" method="post">
+            <!--
+            labelタグ
+            * inputと文字列をまとめて囲う。
+            * for属性にinput要素のidを指定すると関連付けできる。
+            -->
+            <p>
+                Radio:
+                <label><input type="radio" name="color" value="red" checked>red</label>
+                <input type="radio" name="color" value="blue" id="blue"><label for="blue">blue</label>
+                <input type="radio" name="color" value="white">white
+            </p>
+        </form>
+    </body>
+</html>
