@@ -1,8 +1,6 @@
-# etc
+# Windows
 
-## Windows
-
-### メイリオフォントを設定
+## メイリオフォントを設定
 以下からメイリオフォントと等倍フォント作成パッチファイルをダウンロードしてくる。
 [http://web1.nazca.co.jp/hp/nzkchicagob/m6x9801/mrktb9br5.html](http://web1.nazca.co.jp/hp/nzkchicagob/m6x9801/mrktb9br5.html)
 
