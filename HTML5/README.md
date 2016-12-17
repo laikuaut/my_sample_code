@@ -91,6 +91,10 @@ HTML5のサンプルソース置き場
 
 ## インライン要素
 
+* strong : 強調
+* br : 改行
+* span : インライン要素でのスタイル用
+
 ## 参考URL
 
 * [W3C HTML5](https://www.w3.org/TR/html5/)

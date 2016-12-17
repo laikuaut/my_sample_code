@@ -41,3 +41,11 @@
         - dl : definition list
         - dt : definition term
         - dd : definition description
+* 015.br
+    + 改行
+* 016.strong
+    + 強調
+* 017.span
+    + インラインのスタイル用要素
+* 018.em
+    + 強勢する（アクセントを付ける）箇所
