@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>031.select</title>
+    </head>
+    <body>
+        <form class="sample" action="index.html" method="post">
+            <!--
+            autofocus属性
+                自動フォーカスを指定する（autofocus）
+            disabled属性
+                操作を無効にする（disabled）
+            form属性
+                どのフォームと関連付けるかを<form>のid名で指定
+            multiple属性
+                選択肢を複数選択できるようにする（multiple）
+            name属性
+                セレクトボックスの名前を指定
+            size属性
+                表示する選択肢の数を指定（1以上の正の整数）
+            -->
+            <p>
+                言語選択
+                <select name="program">
+                    <option value="C">C言語</option>
+                    <option value="Java" selected="">Java</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Perl">Perl</option>
+                    <option value="Python">Python</option>
+                </select>
+            </p>
+            <p>
+                言語選択
+                <select name="program" multiple>
+                    <option value="C">C言語</option>
+                    <option value="Java" selected="">Java</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Perl">Perl</option>
+                    <option value="Python">Python</option>
+                </select>
+            </p>
+        </form>
+    </body>
+</html>
