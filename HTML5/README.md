@@ -121,26 +121,52 @@ HTML5のサンプルソース置き場
 
 ### inputタグ
 
-* type=text
-    + 1行テキストボックスをつくります。
-* type=password
-    + パスワード入力ボックスをつくります。
-* type=checkbox
-    + チェックボックスをつくります。
-* type=radio
-    + ラジオボタンをつくります。
-* type=file
-    + サーバーへファイルを送信する際に、送信するファイルを選択します。
-* type=hidden
-    + 隠しデータをサーバーに送信する際に使用します。
-* type=submit
-    + 送信ボタンをつくります。
-* type=reset
-    + リセットボタンをつくります。
-* type=button
-    + 汎用ボタンをつくります。
-* type=image
-    + 画像のボタンをつくります。
+* type="hidden"
+    + 画面上は表示されない隠しデータを指定する
+* type="text"
+    + 一行テキストボックスを作成する（初期値）
+* type="search"
+    + 検索テキストの入力欄を作成する
+* type="tel"
+    + 電話番号の入力欄を作成する
+* type="url"
+    + URLの入力欄を作成する
+* type="email"
+    + メールアドレスの入力欄を作成する
+* type="password"
+    + パスワード入力欄を作成する
+* type="datetime"
+    + UTC（協定世界時）による日時の入力欄を作成する
+* type="date"
+    + 日付の入力欄を作成する
+* type="month"
+    + 月の入力欄を作成する
+* type="week"
+    + 週の入力欄を作成する
+* type="time"
+    + 時間の入力欄を作成する
+* type="datetime-local"
+    + UTC（協定世界時）によらないローカル日時の入力欄を作成する
+* type="number"
+    + 数値の入力欄を作成する
+* type="range"
+    + レンジの入力欄を作成する
+* type="color"
+    + 色の入力欄を作成する
+* type="checkbox"
+    + チェックボックスを作成する
+* type="radio"
+    + ラジオボタンを作成する
+* type="file"
+    + サーバーへファイルを送信する
+* type="submit"
+    + 送信ボタンを作成する
+* type="image"
+    + 画像ボタンを作成する
+* type="reset"
+    + リセットボタンを作成する
+* type="button"
+    + 汎用ボタンを作成する
 
 ### buttonタグ
 
