@@ -88,12 +88,20 @@ HTML5のサンプルソース置き場
 * blockquote : 引用・転載セクション
 * pre : 半角スペースや改行をそのまま表示する
 * hr : テーマや話題の区切りを表す(水平線)
+* ul : unordered list
+* ol : ordered list
+* li : list item
+* dl : definition list
+* dt : definition term
+* dd : definition description
 
 ## インライン要素
 
 * strong : 強調
 * br : 改行
 * span : インライン要素でのスタイル用
+* em : 強勢する（アクセントを付ける）
+* a : リンク
 
 ## 参考URL
 
