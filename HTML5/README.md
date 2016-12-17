@@ -114,6 +114,8 @@ HTML5のサンプルソース置き場
 
 ## フォーム
 
+### formタグ
+
 * action : 送信先(phpやrubyなどの送信先スクリプトを指定)
 * method : get / post
 
