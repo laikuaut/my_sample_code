@@ -16,5 +16,14 @@
     + スタイル属性
 * 008.outline
     + アウトライン
+        - section
+        - article
+        - header
+        - footer
+        - nav
+        - aside
+        - h1 ... h6
 * 009.p
     + 段落
+* 010.pre
+    + 改行や半角スペースをそのまま表示する
