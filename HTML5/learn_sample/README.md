@@ -12,5 +12,7 @@
     + ID属性
 * [006.class](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/006.class.html)
     + クラス属性
-* [007.style](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/)
+* [007.style](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/007.style.html)
     + スタイル属性
+* [008.outline](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/008.outline.html)
+    + アウトライン
