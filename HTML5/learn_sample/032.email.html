@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>032.email</title>
+    </head>
+    <body>
+        <form class="sample" action="index.html" method="post">
+            <!--
+            type="email"
+                メールアドレスの入力欄を作成する
+            name属性
+                フォーム部品に名前をつける
+            value属性
+                送信される値を指定する（type="email"の場合には、妥当な絶対URLを指定する必要がある）
+            size属性
+                表示文字数を指定（1以上の正の整数）
+            maxlength属性
+                入力できる最大文字数を指定する
+            autocomplete属性
+                入力候補を提示して入力内容を自動補完する（on・off・default）（初期値はdefault）
+            multiple属性
+                複数の値を入力・選択できるようにする
+            pattern属性
+                正規表現で入力値のパターンを指定する
+            placeholder属性
+                入力欄に初期表示する内容を指定する
+            readonly属性
+                ユーザーによるテキスト編集を不可にして読み取り専用にする（readonly）
+            required属性
+                入力必須にする
+            -->
+            <p>
+                Email:
+                <input type="email" name="email" value="">
+            </p>
+            <p><input type="submit" value="送信!"></p>
+        </form>
+    </body>
+</html>
