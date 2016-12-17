@@ -16,7 +16,7 @@ HTML5のサンプルソース置き場
     + スタイルタグを設定してみる
 * [005.id](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/005.id.html)
     + ID属性
-* [006.class](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/)
+* [006.class](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/006.class.html)
     + クラス属性
 * [007.style](https://github.com/laikuaut/my_sample_code/blob/master/HTML5/learn_sample/)
     + スタイル属性
