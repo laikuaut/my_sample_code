@@ -103,6 +103,15 @@ HTML5のサンプルソース置き場
 * em : 強勢する（アクセントを付ける）
 * a : リンク
 
+## テーブル
+
+* table : table
+* thead : table head
+* tbody : table body
+* tr : table row
+* th : table header
+* td : table data
+
 ## 参考URL
 
 * [W3C HTML5](https://www.w3.org/TR/html5/)
