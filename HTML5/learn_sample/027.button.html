@@ -6,10 +6,44 @@
     </head>
     <body>
         <form class="" action="index.html" method="post">
+            <!--
+            autofocus属性
+                自動フォーカスを指定する（autofocus）
+            disabled属性
+                操作を無効にする（disabled）
+            form属性
+                どのフォームと関連付けるかを<form>のid名で指定
+            formaction属性
+                送信先URLを指定
+            formenctype属性
+                送信するデータの形式を指定（application/x-www-form-urlencoded・multipart/form-data・text/plain）（初期値はapplication/x-www-form-urlencoded）
+            formmethod属性
+                送信方法（HTTPメソッド）を指定（get・post）（初期値はget）
+            formnovalidate属性
+                入力されたデータの妥当性を確認しない（formnovalidate）
+            formtarget属性
+                フォーム送信するターゲット先を指定（_blank・_self・_parent・_top・任意のターゲット名）
+            name属性
+                ボタンの名前を指定
+            type属性
+                ボタンの種類を指定（submit・reset・button）（初期値はsubmit）
+            value属性
+                値を指定
+            -->
             <p><button type="submit" name="button">送信！</button></p>
             <p><button type="reset" name="button">リセット！</button></p>
             <p><button type="button" name="button">ボタン！</button></p>
             <p><button type="button" name="button" disabled>無効</button></p>
+
+            <!--
+            type="button"
+                汎用ボタンを作成する
+            name属性
+                ボタンに名前をつける
+            value属性
+                ボタンの値（ボタンに表示されるテキスト）を指定する
+            -->
+            <p><input type="button" name="button" value="ボタン！"></p>
         </form>
     </body>
 </html>

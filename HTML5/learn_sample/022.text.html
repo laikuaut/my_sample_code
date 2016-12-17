@@ -12,18 +12,28 @@
         -->
         <form action="index.html" method="post">
             <!--
-                type="text"
-                    一行テキストボックスを作成する
-                name
-                    フォーム部品に名前をつける
-                value
-                    送信される値を指定する
-                size
-                    フォーム部品のサイズを指定する
-                maxlength
-                    入力できる最大文字数を指定する
-                placeholder
-                    未入力の時に表示するテキスト
+            type="text"
+                一行テキストボックスを作成する（初期値）
+            name属性
+                フォーム部品に名前をつける
+            value属性
+                送信される値を指定する
+            size属性
+                表示文字数を指定（1以上の正の整数）
+            maxlength属性
+                入力できる最大文字数を指定する
+            autocomplete属性
+                入力候補を提示して入力内容を自動補完する（on・off・default）（初期値はdefault）
+            pattern属性
+                正規表現で入力値のパターンを指定する
+            placeholder属性
+                入力欄に初期表示する内容を指定する
+            readonly属性
+                ユーザーによるテキスト編集を不可にして読み取り専用にする（readonly）
+            required属性
+                入力必須にする
+            list属性
+                ユーザーに入力候補として提案するデータリストの要素を、その要素のid属性の値で指定する
             -->
             <p>入力フォーム：<input type="text" name="input_text" value="default" size="50" maxlength="5"></p>
             <p>入力フォーム：<input type="text" name="input_text" size="50" placeholder="please enter text"></p>

@@ -12,30 +12,22 @@
         -->
         <form action="022.text.html" method="post">
             <!--
-            type="text"
-                一行テキストボックスを作成する
-            name
-                フォーム部品に名前をつける
-            value
-                送信される値を指定する
-            size
-                フォーム部品のサイズを指定する
-            maxlength
-                入力できる最大文字数を指定する
-            placeholder
-                未入力の時に表示するテキスト
-        -->
-            <p>入力フォーム：<input type="text" name="input_text" size="50" placeholder="please enter text"></p>
-
-            <!--
             type="submit"
                 送信ボタンを作成する
-            type="reset"
-                リセットボタンを作成する
-            name
+            name属性
                 ボタンに名前をつける
-            value
-                ボタンに表示されるテキストを指定する
+            value属性
+                ボタンの値（ボタンに表示されるテキスト）を指定する
+            formaction属性
+                送信先URLを指定
+            formenctype属性
+                送信するデータの形式を指定（application/x-www-form-urlencoded・multipart/form-data・text/plain）（初期値はapplication/x-www-form-urlencoded）
+            formmethod属性
+                送信方法（HTTPメソッド）を指定（get・post）（初期値はget）
+            formnovalidate属性
+                入力されたデータの妥当性を確認しない（formnovalidate）
+            formtarget属性
+                フォーム送信するターゲット先を指定（_blank・_self・_parent・_top・任意のターゲット名）
             -->
             <p><input type="submit" name="b_send" value="送信！"></p>
             <p><input type="reset" name="b_reset" value="リセット"></p>
