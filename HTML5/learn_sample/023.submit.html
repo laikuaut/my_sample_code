@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>022.text</title>
+    </head>
+    <body>
+        <!--
+            form
+                action : 送信先
+                method : get / post
+        -->
+        <form action="022.text.html" method="post">
+            <!--
+            type="text"
+                一行テキストボックスを作成する
+            name
+                フォーム部品に名前をつける
+            value
+                送信される値を指定する
+            size
+                フォーム部品のサイズを指定する
+            maxlength
+                入力できる最大文字数を指定する
+            placeholder
+                未入力の時に表示するテキスト
+        -->
+            <p>入力フォーム：<input type="text" name="input_text" size="50" placeholder="please enter text"></p>
+
+            <!--
+            type="submit"
+                送信ボタンを作成する
+            type="reset"
+                リセットボタンを作成する
+            name
+                ボタンに名前をつける
+            value
+                ボタンに表示されるテキストを指定する
+            -->
+            <p><input type="submit" name="b_send" value="送信！"></p>
+            <p><input type="reset" name="b_reset" value="リセット"></p>
+        </form>
+    </body>
+</html>
