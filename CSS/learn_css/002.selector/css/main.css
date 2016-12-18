@@ -1,0 +1,20 @@
+
+/*ユニバーサルセレクタ*/
+* {
+    color: orange;
+}
+
+/*要素セレクタ*/
+div {
+    font-size: 32px;
+}
+
+/*id要素*/
+#id1 {
+    color: red;
+}
+
+/*class要素*/
+.class1 {
+    color: skyblue;
+}
