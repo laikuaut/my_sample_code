@@ -161,7 +161,9 @@
 * border : ボックスの枠線
 * padding : ボックスとテキストの間の内側の余白
 
-![box-model](https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1).png)
+<div  style="text-align: center;">
+<img src="https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1).png" alt="ボックスモデル画像" width="50%" height="50%">
+</div>
 
 ## 参考URL
 
