@@ -1,0 +1,17 @@
+html, body {
+    height : 100%;
+}
+
+/*%で幅、高さを指定*/
+.box1 {
+    background-color: pink;
+    height : 20%; /*高さは親要素に依存するため、事前にhtml,body要素を100%にしておく*/
+    width : 20%;
+}
+
+/*pxで幅、高さを指定*/
+.box2 {
+    background-color: skyblue;
+    height: 50px;
+    width: 50px;
+}
