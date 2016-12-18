@@ -1,0 +1,16 @@
+div.box {
+    width: 20%;
+    background-color: rgb(35, 236, 242);
+    border: 1px dotted;
+}
+
+
+
+/*マージンの相殺の例*/
+#box1 {
+    margin: 30px 10px;
+}
+
+#box2 {
+    margin: 10px 10px;
+}

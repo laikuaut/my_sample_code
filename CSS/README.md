@@ -168,6 +168,12 @@
         - 1要素 : top/bottom/right/left
     + padding-[top, bottom, left, right] : 上下左右の余白幅を個別に指定
 * margin : 枠線の外側の余白
+    + margin : 上下左右のマージン幅を指定
+        - 4要素 : top right bottom left
+        - 3要素 : top right/left bottom
+        - 2要素 : top/bottom right/left
+        - 1要素 : top/bottom/right/left
+    + margin-[top, bottom, left, right] : 上下左右のマージン幅を個別に指定
 
 ### ボックスモデル
 
@@ -178,6 +184,10 @@
 <div  style="text-align: center;">
 <img src="https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1).png" alt="ボックスモデル画像" width="50%" height="50%">
 </div>
+
+### マージンの相殺
+
+2つの要素のマージが上下に並んでいる場合、マージン幅の大きい方が優先される。
 
 ## 参考URL
 
