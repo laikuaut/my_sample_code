@@ -1,0 +1,23 @@
+.sample {
+    font-size: 16px;
+}
+
+/*
+sans-serif …… ゴシック系のフォント
+serif …… 明朝系のフォント
+cursive …… 筆記体・草書体のフォント
+fantasy …… 装飾的なフォント
+monospace …… 等幅フォント
+*/
+
+.sample1 {
+    font-family: Arial;
+}
+
+.sample2 {
+    font-family: serif;
+}
+
+.sample3 {
+    font-family: monospace;;
+}
