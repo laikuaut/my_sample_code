@@ -17,3 +17,6 @@ CSS2.1の基礎サンプルコードを作成してみる。
     + 細かいサンプルはlearn_pseudo_classディレクトリを参照
 * 006.pseudo_elements
     + 疑似要素を使ってみる
+* 007.specificity
+    + CSSの詳細度
+    + [MDN詳細度](https://developer.mozilla.org/ja/docs/Web/CSS/Specificity)
