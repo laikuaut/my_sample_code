@@ -1,0 +1,51 @@
+.solid {
+    width: 20%;
+    text-align: center;
+    border-color: orange;
+    border-width: 4px;
+    border-style: solid;
+    margin: 15px;
+}
+.dotted {
+    width: 20%;
+    text-align: center;
+    /* 順不同で指定可能 */
+    border: orange 4px dotted;
+    margin: 15px;
+}
+.dashed {
+    width: 20%;
+    text-align: center;
+    /*上下左右での指定も可能*/
+    border-top: orange 4px dashed;
+    border-bottom-color: orange;
+    border-bottom-style: dashed;
+    border-bottom-width: 4px;
+    border-left: orange 4px dashed;
+    border-right: orange 4px dashed;
+    margin: 15px;
+}
+.double {
+    width: 20%;
+    text-align: center;
+    border-color: orange;
+    border-width: 4px;
+    border-style: double;
+    margin: 15px;
+}
+.inset {
+    width: 20%;
+    text-align: center;
+    border-color: orange;
+    border-width: 4px;
+    border-style: inset;
+    margin: 15px;
+}
+.outset {
+    width: 20%;
+    text-align: center;
+    border-color: orange;
+    border-width: 4px;
+    border-style: outset;
+    margin: 15px;
+}

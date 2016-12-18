@@ -149,11 +149,19 @@
 
 ## プロパティ
 
-* width
-* height
-* border
-* padding
-* margin
+* width : コンテンツの幅
+* height : コンテンツの高さ
+* border : 枠線
+    + border : 上下左右の枠線の色、スタイル、幅を指定(色、スタイル、幅は順不同で設定可)
+    + border-top : 上の枠線の色、スタイル、幅を指定
+    + border-bottom : 下の枠線の色、スタイル、幅を指定
+    + border-left : 左の枠線の色、スタイル、幅を指定
+    + border-right : 右の枠線の色、スタイル、幅を指定
+    + border-color : 上下左右の枠線の色
+    + border-style : 上下左右の枠線のスタイル
+    + border-width : 上下左右の枠線の幅
+* padding : 余白
+* margin : 枠線の外側の余白
 
 ### ボックスモデル
 
