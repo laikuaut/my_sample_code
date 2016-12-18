@@ -1,0 +1,12 @@
+p:active {
+    color: skyblue;
+}
+
+a:active {
+    color: red;
+    background-color: blue;
+}
+
+input:active {
+    background: pink;
+}
