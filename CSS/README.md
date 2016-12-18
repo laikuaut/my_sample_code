@@ -161,7 +161,7 @@
 * border : ボックスの枠線
 * padding : ボックスとテキストの間の内側の余白
 
-![box-model](https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1)
+![box-model](https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1).png)
 
 ## 参考URL
 
