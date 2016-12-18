@@ -211,6 +211,36 @@ CSSのボックスモデルは以下のようになっている。
     + overline : テキストに上線が付きます
     + line-through : テキストに打ち消し線が付きます
 
+### リストのスタイル
+
+* list-style : リストをスタイルを指定する
+    + list-style : マーカ(list-style-type)とマーカ位置(list-style-position)を指定(順不同)
+    + list-style-type : マーカ指定
+        - none : マーカーなし
+        - disc : 黒丸
+        - circle : 白丸
+        - square : 黒四角
+        - lower-roman : 小文字のローマ数字
+        - upper-roman : 大文字のローマ数字
+        - lower-greek : 小文字のギリシャ文字
+        - decimal : 算用数字
+        - decimal-leading-zero : 先頭に0をつけた算用数字
+        - lower-latin : 小文字のアルファベット
+        - lower-alpha : 小文字のアルファベット
+        - upper-latin : 大文字のアルファベット
+        - upper-alpha : 大文字のアルファベット
+        - cjk-ideographic : 漢数字
+        - hiragana : ひらがなのあいうえお順
+        - katakana : カタカナのアイウエオ順
+        - hiragana-iroha : ひらがなのいろはにほへと順
+        - katakana-iroha : カタカナのイロハニホヘト順
+        - hebrew : ヘブライ数字
+        - armenian : アルメニア数字
+        - georgian : グルジア数字
+    + list-style-image : 画像をマーカに使用する
+    + list-style-position : 改行時マーカの内側にするか外側にするか
+        - inside
+        - outside
 
 ## 参考URL
 
