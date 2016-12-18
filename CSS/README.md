@@ -197,6 +197,10 @@ CSSのボックスモデルは以下のようになっている。
 * font-weight : フォント太さ
     + bold : 一般的な太字の太さ
     + normal : 標準の太さ
+* font-style : フォントをイタリック体・斜体にする
+    + normal : 標準フォントで表示
+    + italic : イタリック体フォントで表示
+    + oblique : 斜体フォントで表示
 * text-align : 行揃え
     + left : 左揃え
     + center : 中央揃え
