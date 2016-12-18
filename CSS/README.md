@@ -194,9 +194,9 @@ CSSのボックスモデルは以下のようになっている。
 * color : 色
 * font-size : フォントサイズ
 * font-family : フォント種別
-* font-weight : 太字にするか
-    + bold : 太字
-    + normal : 通常
+* font-weight : フォント太さ
+    + bold : 一般的な太字の太さ
+    + normal : 標準の太さ
 * text-align : 行揃え
     + left : 左揃え
     + center : 中央揃え
