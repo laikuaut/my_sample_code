@@ -149,6 +149,16 @@
 
 ## プロパティ
 
+### ボックスモデル
+
+CSSのボックスモデルは以下のようになっている。  
+
+<div  style="text-align: center;">
+<img src="https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1).png" alt="ボックスモデル画像" width="50%" height="50%">
+</div>
+　  
+具体的なプロパティは以下。  
+
 * width : コンテンツの幅
 * height : コンテンツの高さ
 * border : 枠線
@@ -175,17 +185,7 @@
         - 1要素 : top/bottom/right/left
     + margin-[top, bottom, left, right] : 上下左右のマージン幅を個別に指定
 
-### ボックスモデル
-
-* margin : ボックスの外側の余白
-* border : ボックスの枠線
-* padding : ボックスとテキストの間の内側の余白
-
-<div  style="text-align: center;">
-<img src="https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1).png" alt="ボックスモデル画像" width="50%" height="50%">
-</div>
-
-### マージンの相殺
+#### マージンの相殺
 
 2つの要素のマージが上下に並んでいる場合、マージン幅の大きい方が優先される。
 
