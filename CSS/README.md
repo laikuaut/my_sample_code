@@ -92,7 +92,7 @@
     + disabled :
     + checked :
 * 否定疑似クラス(CSS3)
-    + not : 
+    + not :
 
 ## 参考URL
 

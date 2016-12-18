@@ -1,9 +1,9 @@
 a {
     color : black;
-    font-size: 15px;
+    background-color: white;
 }
 
 a:link {
     color: red;
-    font-size: 32px;
+    background-color: blue;
 }

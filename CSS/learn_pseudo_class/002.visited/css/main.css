@@ -1,0 +1,9 @@
+a {
+    color: red;
+    background-color: blue;
+}
+
+a:visited {
+    color: skyblue;
+    background-color: red;
+}
