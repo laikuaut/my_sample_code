@@ -8,17 +8,17 @@ a[title] {
     color : orange;
 }
 
-/*a[b^=c]*/
+/*a[b^=c] (CSS3)*/
 a[href^="http:"] {
     font-size : 32px;
 }
 
-/*a[b$=c]*/
+/*a[b$=c] (CSS3)*/
 a[href$=".ne.jp"] {
     color: skyblue;
 }
 
-/*a[b*=c]*/
+/*a[b*=c] (CSS3)*/
 a[href*=yahoo] {
     color: blue;
 }
