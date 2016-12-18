@@ -1,0 +1,29 @@
+/*子要素の1つ目*/
+ul li:first-child {
+    color: red;
+}
+
+/*訪問前のリンクスタイル*/
+a:link {
+    color: pink;
+}
+
+/*訪問後のリンクスタイル*/
+a:visited {
+    color: violet;
+}
+
+/*カーソルを重ねた時のスタイル*/
+a:hover {
+    color: red;
+}
+
+/*クリック状態でのスタイル*/
+a:active {
+    color: skyblue;
+}
+
+/*フォーカス状態でのスタイル*/
+input:focus {
+    background: pink;
+}

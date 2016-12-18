@@ -92,8 +92,9 @@
     + disabled :
     + checked :
 * 否定疑似クラス(CSS3)
-    + not
+    + not : 
 
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
+* [ZERO CSS HappyLife](http://zero.css-happylife.com/)
