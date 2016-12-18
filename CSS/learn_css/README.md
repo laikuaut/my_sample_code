@@ -15,4 +15,5 @@ CSS2.1の基礎サンプルコードを作成してみる。
 * 005.pseudo_class
     + 疑似クラスを使ってみる。
     + 細かいサンプルはlearn_pseudo_classディレクトリを参照
-* 006.
+* 006.pseudo_elements
+    + 疑似要素を使ってみる

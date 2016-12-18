@@ -1,0 +1,15 @@
+p::first-line {
+    color: skyblue;
+}
+
+p::first-letter {
+    color: red;
+}
+
+p::before {
+    content: "<-- "
+}
+
+p::after {
+    content: " -->"
+}
