@@ -1,0 +1,34 @@
+/*a[b=c]*/
+a[href="https://www.google.com"] {
+    color : red;
+}
+
+/*a[b]*/
+a[title] {
+    color : orange;
+}
+
+/*a[b^=c]*/
+a[href^="http:"] {
+    font-size : 32px;
+}
+
+/*a[b$=c]*/
+a[href$=".ne.jp"] {
+    color: skyblue;
+}
+
+/*a[b*=c]*/
+a[href*=yahoo] {
+    color: blue;
+}
+
+/*a[b~=c]*/
+a[class~="link"] {
+    font-style: italic;
+}
+
+/*a[b|=c]*/
+a[class|="search"] {
+    font-weight: bold;
+}
