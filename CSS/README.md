@@ -155,6 +155,14 @@
 * padding
 * margin
 
+### ボックスモデル
+
+* margin : ボックスの外側の余白
+* border : ボックスの枠線
+* padding : ボックスとテキストの間の内側の余白
+
+![box-model](https://developer.mozilla.org/@api/deki/files/2835/=boxmodel%20(1)
+
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
