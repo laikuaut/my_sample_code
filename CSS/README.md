@@ -189,6 +189,23 @@ CSSのボックスモデルは以下のようになっている。
 
 2つの要素のマージが上下に並んでいる場合、マージン幅の大きい方が優先される。
 
+### 文字のスタイル
+
+* color : 色
+* font-size : フォントサイズ
+* font-family : フォント種別
+* font-weight : 太字にするか
+    + bold : 太字
+    + normal : 通常
+* text-align : 行揃え
+    + left : 左揃え
+    + center : 中央揃え
+    + right : 右揃え
+* text-decoration : テキストのデコレート
+    + underline : 下線
+    + line-through : 打消し線
+    + none : なし
+
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
