@@ -90,4 +90,12 @@
 
 ### git plus
 
+Atom からgitを操作
+
 * add + commit + push : Ctrl + Shift + a, p
+
+### color-picker
+
+cssの色をカラーパレットから作成
+
+* カラーパレットを開く : Ctrl + Alt + C
