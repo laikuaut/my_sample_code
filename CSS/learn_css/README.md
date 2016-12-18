@@ -20,3 +20,7 @@ CSS2.1の基礎サンプルコードを作成してみる。
 * 007.specificity
     + CSSの詳細度
     + [MDN詳細度](https://developer.mozilla.org/ja/docs/Web/CSS/Specificity)
+* 008.length
+    + 長さ指定の方法を試してみる
+* 009.color
+    + 色指定の方法を試してみる
