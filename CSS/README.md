@@ -24,3 +24,20 @@
 * 要素セレクタ : p, divなど
 * IDセレクタ : #id
 * classセレクタ : .class
+
+### セレクタ使用方法
+
+* a, b : aとbのセレクタそれぞれにスタイルを適用
+    + h1, p
+* a b : a配下のbセレクタ全てにスタイルを適用
+    + div span
+* a > b : a直下にあるbだけにスタイルを適用
+    + div > span
+* a + b : aの次に来るbにスタイルを適用
+    + p + p
+* ab : a要素のb属性にスタイルを適用
+    + p.class1
+
+## 参考URL
+
+* [W3C CSS2.1](https://www.w3.org/TR/CSS21/)

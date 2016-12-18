@@ -1,0 +1,24 @@
+/*h1とp要素に適用*/
+h1, p {
+    color: red;
+}
+
+/*div配下のspan要素すべてに適用*/
+div span {
+    color: green;
+}
+
+/*div直下のspan要素に適用*/
+div > span {
+    color: skyblue;
+}
+
+/*pの次に来るp要素に適用*/
+p + p {
+    font-size: 56px;
+}
+
+/*p要素のpointクラスに適用*/
+p.point {
+    color: orange;
+}
