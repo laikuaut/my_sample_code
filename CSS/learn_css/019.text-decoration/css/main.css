@@ -1,0 +1,15 @@
+.sample1 {
+    text-decoration: none;
+}
+.sample2 {
+    text-decoration: underline;
+}
+.sample3 {
+    text-decoration: overline;
+}
+.sample4 {
+    text-decoration: line-through;
+}
+.sample5 {
+    text-decoration: blink;
+}

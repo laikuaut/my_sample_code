@@ -206,9 +206,12 @@ CSSのボックスモデルは以下のようになっている。
     + center : 中央揃え
     + right : 右揃え
 * text-decoration : テキストのデコレート
-    + underline : 下線
-    + line-through : 打消し線
-    + none : なし
+    + none : テキストに線は付かず、点滅もしませんこれが初期値です
+    + underline : テキストに下線が付きます
+    + overline : テキストに上線が付きます
+    + line-through : テキストに打ち消し線が付きます
+    + blink : テキストが点滅します
+
 
 ## 参考URL
 
