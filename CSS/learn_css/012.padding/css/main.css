@@ -1,0 +1,27 @@
+body {
+    margin : 0;
+}
+
+.sample {
+    width: 20%;
+}
+
+.sample1 {
+    background-color: pink;
+    padding : 20px;
+}
+
+.sample2 {
+    background-color: skyblue;
+    padding: 10px 50px;
+}
+
+.sample3 {
+    background-color: orange;
+    padding: 30px 20px 50px;
+}
+
+.sample4 {
+    background-color: green;
+    padding: 10px 20px 30px 40px;
+}

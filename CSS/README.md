@@ -161,6 +161,12 @@
     + border-width : 上下左右の枠線の幅
     + border-width-[top, bottom, left, right] : 上下左右の枠線を個別に幅
 * padding : 余白
+    + padding : 上下左右の余白幅を指定
+        - 4要素 : top right bottom left
+        - 3要素 : top right/left bottom
+        - 2要素 : top/bottom right/left
+        - 1要素 : top/bottom/right/left
+    + padding-[top, bottom, left, right] : 上下左右の余白幅を個別に指定
 * margin : 枠線の外側の余白
 
 ### ボックスモデル
