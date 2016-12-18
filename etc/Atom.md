@@ -84,6 +84,10 @@
 * Markdownのプレービュー表示／非表示 : Ctrl + Shift + m
 * Tree Viewの表示／非表示 : Ctrl + Shift + \
 
+### 自分でのショートカットキー設定
+
+* auto-indent : Ctrl + Alt + i
+
 ### git plus
 
 * add + commit + push : Ctrl + Shift + a, p
