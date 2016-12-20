@@ -242,6 +242,35 @@ CSSのボックスモデルは以下のようになっている。
         - inside : 内側
         - outside : 外側
 
+### カーソル形状
+
+* cursor
+    + auto : ブラウザが自動的に選択したカーソル
+    + default : 矢印型など利用環境の標準カーソル
+    + pointer : リンクカーソル
+    + crosshair : 十字カーソル
+    + move : 移動カーソル
+    + text : テキスト編集カーソル
+    + wait : 待機・処理中カーソル
+    + help : ヘルプカーソル
+    + n-resize : 北方向のリサイズカーソル
+    + s-resize : 南方向のリサイズカーソル
+    + w-resize : 西方向のリサイズカーソル
+    + e-resize : 東方向のリサイズカーソル
+    + ne-resize : 北東方向のリサイズカーソル
+    + nw-resize : 北西方向のリサイズカーソル
+    + se-resize : 南東方向のリサイズカーソル
+    + sw-resize : 南西方向のリサイズカーソル
+    + progress : 進行中カーソル（CSS 2.1より仕様に追加）
+    + url('ファイルのパス') : オリジナルのカーソル
+    + hand : 指型カーソル（IE4以上の独自拡張）
+    + no-drop : ドロップ禁止カーソル（IE6以上の独自拡張）
+    + all-scroll : 全スクロールカーソル（IE6以上の独自拡張）
+    + col-resize : 横方向のリサイズカーソル（IE6以上の独自拡張）
+    + row-resize : 縦方向のリサイズカーソル（IE6以上の独自拡張）
+    + not-allowed : 禁止カーソル（IE6以上の独自拡張）
+    + vertical-text : 縦書きカーソル（IE6以上の独自拡張）
+
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
