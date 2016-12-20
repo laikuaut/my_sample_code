@@ -8,3 +8,110 @@
 .sample3 {
     list-style-image: url(master.png);
 }
+
+/*マーカ種類表示*/
+.sample4 {
+    /*マーカなし*/
+    list-style-type: none;
+    list-style-position: outside;
+}
+.sample5 {
+    /*黒丸*/
+    list-style-type: disc;
+    list-style-position: outside;
+}
+.sample6 {
+    /*白丸*/
+    list-style-type: circle;
+    list-style-position: outside;
+}
+.sample7 {
+    /*黒四角*/
+    list-style-type: square;
+    list-style-position: outside;
+}
+.sample8 {
+    /*小文字のローマ数字*/
+    list-style-type: lower-roman;
+    list-style-position: outside;
+}
+.sample9 {
+    /*小文字のローマ数字*/
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+.sample10 {
+    /*小文字のギリシャ文字*/
+    list-style-type: lower-greek;
+    list-style-position: outside;
+}
+.sample11 {
+    /*算用数字*/
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+.sample12 {
+    /*先頭に0をつけた算用数字*/
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+}
+.sample13 {
+    /*小文字のアルファベット*/
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+.sample14 {
+    /*小文字のアルファベット*/
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}
+.sample15 {
+    /*大文字のアルファベット*/
+    list-style-type: upper-latin;
+    list-style-position: outside;
+}
+.sample16 {
+    /*大文字のアルファベット*/
+    list-style-type: upper-alpha;
+    list-style-position: outside;
+}
+.sample17 {
+    /*漢数字*/
+    list-style-type: cjk-ideographic;
+    list-style-position: outside;
+}
+.sample18 {
+    /*ひらがなのあいうえお順*/
+    list-style-type: hiragana;
+    list-style-position: outside;
+}
+.sample19 {
+    /*カタカナのアイウエオ順*/
+    list-style-type: katakana;
+    list-style-position: outside;
+}
+.sample20 {
+    /*ひらがなのいろはにほへと順*/
+    list-style-type: hiragana-iroha;
+    list-style-position: outside;
+}
+.sample21 {
+    /*カタカナのイロハニホヘト順*/
+    list-style-type: katakana-iroha;
+    list-style-position: outside;
+}
+.sample22 {
+    /*ヘブライ数字*/
+    list-style-type: hebrew;
+    list-style-position: outside;
+}
+.sample23 {
+    /*アルメニア数字*/
+    list-style-type: armenian;
+    list-style-position: outside;
+}
+.sample24 {
+    /*グルジア数字*/
+    list-style-type: georgian;
+    list-style-position: outside;
+}

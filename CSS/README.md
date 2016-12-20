@@ -239,8 +239,8 @@ CSSのボックスモデルは以下のようになっている。
         - georgian : グルジア数字
     + list-style-image : 画像をマーカに使用する
     + list-style-position : 改行時マーカの内側にするか外側にするか
-        - inside
-        - outside
+        - inside : 内側
+        - outside : 外側
 
 ## 参考URL
 
