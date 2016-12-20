@@ -17,13 +17,13 @@
 * 007.first-child
     + 疑似クラスfirst-childを使ってみる
 * 008.first-line
-    + 疑似クラスfirst-lineを使ってみる
+    + 疑似要素first-lineを使ってみる
 * 009.first-letter
-    + 疑似クラスfirst-letterを使ってみる
+    + 疑似要素first-letterを使ってみる
 * 010.before
-    + 疑似クラスbeforeを使ってみる
+    + 疑似要素beforeを使ってみる
 * 011.after
-    + 疑似クラスafterを使ってみる
+    + 疑似要素afterを使ってみる
 
 ## 参考URL
 
