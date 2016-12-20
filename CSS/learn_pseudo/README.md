@@ -24,6 +24,22 @@
     + 疑似要素beforeを使ってみる
 * 011.after
     + 疑似要素afterを使ってみる
+* 012.root
+* 013.last-child
+* 014.nth-child
+* 015.nth-last-child
+* 016.first-of-type
+* 017.last-of-type
+* 018.nth-of-type
+* 019.nth-last-of-type
+* 020.only-child
+* 021.only-of-type
+* 022.empty
+* 023.target
+* 024.enabled
+* 025.disabled
+* 026.checked
+* 027.not
 
 ## 参考URL
 
