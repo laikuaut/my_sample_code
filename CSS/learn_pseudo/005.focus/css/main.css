@@ -1,0 +1,7 @@
+a:focus {
+    background-color: skyblue;
+}
+
+input[type="text"]:focus {
+    background-color: pink;
+}
