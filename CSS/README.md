@@ -271,6 +271,27 @@ CSSのボックスモデルは以下のようになっている。
     + not-allowed : 禁止カーソル（IE6以上の独自拡張）
     + vertical-text : 縦書きカーソル（IE6以上の独自拡張）
 
+### 背景指定
+
+* background : 背景のスタイルを指定する。以下の要素を順不同で設定可能
+    + background-color : 背景色を指定
+        - transparent : 背景を透明にする(初期値)
+        - 色を指定
+    + background-image : 背景画像を指定
+        - none : 画像なし(初期値)
+        - url()
+    + background-repeat : 背景画像のリピートの仕方を指定
+        - repeat : 縦横に背景画像を繰り返して表示します。これが初期値
+        - repeat-x : 横方向にのみ背景画像を繰り返して表示します
+        - repeat-y : 縦方向にのみ背景画像を繰り返して表示します
+        - no-repeat : 背景画像を一回だけ表示して繰り返しません
+    + background-position : 背景画像の表示開始位置を指定する
+        - X座標 : px,%,em指定、left,center,right指定可能
+        - Y座標 : px,%,em指定、top,center,bottom指定可能
+    + background-attachment : 背景画像の固定・移動を指定する
+        - fixed : 背景画像の位置が固定され、スクロールしても動かなくなります。
+        - scroll : スクロールに伴って、背景画像も移動します。
+
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
