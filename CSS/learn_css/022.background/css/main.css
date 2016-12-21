@@ -1,0 +1,7 @@
+body {
+    background: skyblue url('master.png') repeat-y center center fixed;
+}
+
+p a {
+    background-color: white;
+}

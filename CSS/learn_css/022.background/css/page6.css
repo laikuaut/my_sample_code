@@ -1,0 +1,9 @@
+body {
+    background-image: url('master.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+p a {
+    background-color: white;
+}
