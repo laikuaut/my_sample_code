@@ -202,25 +202,27 @@ CSSのボックスモデルは以下のようになっている。
         - 3要素 : top right/left bottom
         - 2要素 : top/bottom right/left
         - 1要素 : top/bottom/right/left
-    + border-color-[top, bottom, left, right] : 上下左右の枠線の色を個別に指定
+    + border-[top, bottom, left, right]-color : 上下左右の枠線の色を個別に指定
     + border-style : 上下左右の枠線のスタイル
         - 4要素 : top right bottom left
         - 3要素 : top right/left bottom
         - 2要素 : top/bottom right/left
         - 1要素 : top/bottom/right/left
-    + border-style-[top, bottom, left, right] : 上下左右の枠線のスタイルを個別に指定
+    + border-[top, bottom, left, right]-style : 上下左右の枠線のスタイルを個別に指定
     + border-width : 上下左右の枠線の幅
         - 4要素 : top right bottom left
         - 3要素 : top right/left bottom
         - 2要素 : top/bottom right/left
         - 1要素 : top/bottom/right/left
-    + border-width-[top, bottom, left, right] : 上下左右の枠線の幅を個別に指定
+    + border-[top, bottom, left, right]-width : 上下左右の枠線の幅を個別に指定
     + border-radius : 左上、右上、右下、左下の枠線の角丸(CSS3)
         - 4要素 : top-left top-right bottom-right bottom-left
         - 3要素 : top-left top-right/bottom-left bottom-right
         - 2要素 : top-left/bottom-right top-right/bottom-left
         - 1要素 : top-left/top-right/bottom-right/bottom-left
-    + border-radius-[top, bottom, left, right] : 上下左右の枠線の角丸を個別に指定(CSS3)
+        - 半径指定 : 半径の長さ
+        - 楕円指定 : "水平方向の半径の長さ / 垂直方向の半径の長さ"
+    + border-[top-left, top-right, bottom-right, bottom-left]-radius : 上下左右の枠線の角丸を個別に指定(CSS3)
 * padding : 余白
     + padding : 上下左右の余白幅を指定
         - 4要素 : top right bottom left

@@ -6,6 +6,7 @@ div {
     border-style: solid;
     border-width: 5px;
     border-color: blue red green black;
+    background-color: skyblue;
 }
 
 #sample1 {
@@ -30,4 +31,20 @@ div {
 #sample4 {
     /*左上/右上、左下/右下*/
     border-radius: 20px 60px 20px;
+}
+
+#sample5 {
+    /*楕円指定(水平方向の長さ/垂直方向の長さ)*/
+    border-radius: 20px / 30px;
+}
+
+#sample6 {
+    /*全円*/
+    border-radius: 50%;
+}
+
+#sample7 {
+    /*画像を丸くする*/
+    background-image: url('master.png');
+    border-radius: 50%;
 }
