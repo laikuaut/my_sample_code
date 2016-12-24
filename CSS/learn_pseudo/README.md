@@ -39,7 +39,9 @@
         - nth-last-of-type
         - only-of-type
 * 015.empty
+    + 疑似クラス emptyを使ってみる
 * 016.target
+    + 疑似クラス targetを使ってみる
 * 017.enabled
 * 018.disabled
 * 019.checked
