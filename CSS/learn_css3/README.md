@@ -8,3 +8,5 @@ CSS3の基礎サンプルコードを作成してみる。
     + css3追加のカラー(rgba, hsl, hsla)を試してみる
 * 03.opacity
     + 透明度を指定してみる
+* 04.attribute_selector
+    + CSS3で追加された属性セレクタを試してみる
