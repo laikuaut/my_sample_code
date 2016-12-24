@@ -137,6 +137,7 @@
 * px : ピクセル
 * em : 親要素からの倍数
 * % : 親要素からのパーセント
+* rem : ルートからの倍数(root em)(CSS3)
 
 ## 色
 
@@ -146,6 +147,15 @@
     + 00-ff : #0000ff
     + 0-255 : rgb(0, 0, 255)
     + 0%-100% : rgb(0%, 0%, 100%)
+* RGBA(Red, Green, Blue, Alpha)(CSS3)
+    + alpha : 0-1(透明-不透明)
+* HSL(Hue(色相), Saturation(彩度), Lightness(明度))(CSS3)
+    + Hue : 0-360
+    + Saturation : 0-100%
+    + Lightness : 0-100%
+    + ![HSL](http://cweb.canon.jp/camera/picturestyle/editor/images/b1-e-img-5.jpg) ![HSL](https://i-msdn.sec.s-msft.com/dynimg/IC310480.png)
+* HSLA(Hue(色相), Saturation(彩度), Lightness(明度), Alpha(透明度))(CSS3)
+    + Alpha : 0-1(透明-不透明)
 
 ## プロパティ
 
