@@ -2,15 +2,17 @@
 
 CSS3の基礎サンプルコードを作成してみる。
 
-* 01.rem
+* 001.rem
     + root emで長さ指定してみる
-* 02.css3_color
+* 002.css3_color
     + css3追加のカラー(rgba, hsl, hsla)を試してみる
-* 03.opacity
+* 003.opacity
     + 透明度を指定してみる
-* 04.attribute_selector
+* 004.attribute_selector
     + CSS3で追加された属性セレクタを試してみる
-* 05.nth-child
+* 005.nth-child
     + 疑似クラスnth-childを試してみる
-* 06.nth-of-type
+* 006.nth-of-type
     + 疑似クラスnth-of-typeを試してみる
+* 007.border-radius
+    + 枠線の角丸を指定してみる
