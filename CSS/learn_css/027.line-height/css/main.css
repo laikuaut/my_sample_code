@@ -1,0 +1,19 @@
+p {
+    border: 1px solid black;
+    text-decoration: overline underline;
+}
+
+#normal {
+    font-size: 64px;
+    line-height: normal;
+}
+
+#px {
+    font-size: 64px;
+    line-height: 200px;
+}
+
+#pc {
+    font-size: 64px;
+    line-height: 3.0;
+}
