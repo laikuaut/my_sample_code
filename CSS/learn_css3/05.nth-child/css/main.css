@@ -1,0 +1,57 @@
+ul {
+    border: solid 1px black;
+    width: 100px;
+}
+
+li {
+    list-style-type: decimal-leading-zero;
+}
+
+#sample1 li:nth-child(3) {
+    background-color: pink;
+}
+#sample2 li:nth-child(odd) {
+    background-color: pink;
+}
+#sample3 li:nth-child(even) {
+    background-color: pink;
+}
+#sample4 li:nth-child(n+4) {
+    background-color: pink;
+}
+#sample5 li:nth-child(-n+3) {
+    background-color: pink;
+}
+#sample6 li:nth-child(3n+1) {
+    background-color: pink;
+}
+#sample7 li:nth-child(3n+2) {
+    background-color: pink;
+}
+#sample8 li:nth-last-child(3) {
+    background-color: pink;
+}
+#sample9 li:nth-last-child(odd) {
+    background-color: pink;
+}
+#sample10 li:nth-last-child(even) {
+    background-color: pink;
+}
+#sample11 li:nth-last-child(n+4) {
+    background-color: pink;
+}
+#sample12 li:nth-last-child(-n+3) {
+    background-color: pink;
+}
+#sample13 li:nth-last-child(3n+1) {
+    background-color: pink;
+}
+#sample14 li:nth-last-child(3n+2) {
+    background-color: pink;
+}
+#sample15 li:nth-child(odd) {
+    background-color: pink;
+}
+#sample15 li:nth-child(even) {
+    background-color: skyblue;
+}
