@@ -43,9 +43,13 @@
 * 016.target
     + 疑似クラス targetを使ってみる
 * 017.enabled
+    + 疑似クラス enabledを使ってみる
 * 018.disabled
+    + 疑似クラス disabledを使ってみる
 * 019.checked
+    + 疑似クラス checkedを使ってみる
 * 020.not
+    + 疑似クラス notを使ってみる
 
 ## 参考URL
 
