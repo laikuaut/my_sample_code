@@ -6,3 +6,5 @@ CSS3の基礎サンプルコードを作成してみる。
     + root emで長さ指定してみる
 * 02.css3_color
     + css3追加のカラー(rgba, hsl, hsla)を試してみる
+* 03.opacity
+    + 透明度を指定してみる

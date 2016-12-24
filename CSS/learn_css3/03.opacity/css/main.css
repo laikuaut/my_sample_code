@@ -1,0 +1,21 @@
+p {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+#sample0 {
+    opacity: .0;
+}
+#sample1 {
+    opacity: .2;
+}
+#sample2 {
+    opacity: .5;
+}
+#sample3 {
+    opacity: .8;
+}
+#sample4 {
+    opacity: 1;
+}
