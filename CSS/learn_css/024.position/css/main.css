@@ -96,3 +96,25 @@ body {
     left: 151px;
     top: 151px;
 }
+
+/*重なり表示*/
+#box3-1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#box3-2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#box3-3 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box3-4 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
