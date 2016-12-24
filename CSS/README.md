@@ -322,9 +322,9 @@ CSSのボックスモデルは以下のようになっている。
     + fixed : 絶対位置への配置となるのはabsoluteと同じですが、スクロールしても位置が固定されたままとなります
 * z-index : 重なり順(値の大きい順)を指定(static以外の要素に適用できる)
 * overflow : はみ出した要素の表示方法を指定
-    + visible
-    + hidden
-    + overflow
+    + visible : はみ出しをそのまま表示
+    + hidden : はみ出しを非表示
+    + scroll : はみ出しをスクロースで表示
 
 
 ## 参考URL

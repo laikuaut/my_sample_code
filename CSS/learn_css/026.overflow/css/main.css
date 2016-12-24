@@ -1,0 +1,26 @@
+div {
+    border: solid 1px black;
+    width: 200px;
+    height: 100px;
+}
+#visible {
+    background-color: pink;
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#hidden {
+    background-color: yellow;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+}
+#scroll {
+    background-color: skyblue;
+    overflow: scroll;
+    position: absolute;
+    top: 0px;
+    left: 420px;
+}
