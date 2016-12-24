@@ -1,4 +1,4 @@
-ul {
+ul, div {
     border: solid 1px black;
     width: 100px;
 }
@@ -7,6 +7,9 @@ li {
     list-style-type: decimal-leading-zero;
 }
 
+#sample0 li:first-child {
+    background-color: pink;
+}
 #sample1 li:nth-child(3) {
     background-color: pink;
 }
@@ -68,5 +71,11 @@ li {
     background-color: pink;
 }
 #sample20 p:nth-child(2) {
+    background-color: pink;
+}
+#sample21 *:only-child {
+    background-color: pink;
+}
+#sample22 *:only-child {
     background-color: pink;
 }

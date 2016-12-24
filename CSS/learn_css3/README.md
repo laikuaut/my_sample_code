@@ -11,4 +11,6 @@ CSS3の基礎サンプルコードを作成してみる。
 * 04.attribute_selector
     + CSS3で追加された属性セレクタを試してみる
 * 05.nth-child
-    + 疑似クラスnth-childを試してみる。
+    + 疑似クラスnth-childを試してみる
+* 06.nth-of-type
+    + 疑似クラスnth-of-typeを試してみる

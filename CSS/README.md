@@ -87,9 +87,21 @@
         この要素はデフォルトではインラインです。
 * 疑似クラス(CSS3)
     + root :
-    + last-child :
-    + nth-child :
-    + nth-last-child :
+    + last-child : 自信の親要素の最後の子要素にマッチ
+    + nth-child : 自信の親要素の先頭から指定の子要素にマッチ
+        - 要素番号指定 : (n)
+        - 奇数 : odd
+        - 偶数 : even
+        - M要素目からすべて : n+M
+        - M要素目より前すべて : -n+M
+        - M要素目からN間隔 : Nn+M
+    + nth-last-child : 自信の親要素の末尾から指定の子要素にマッチ
+        - 末尾からの要素番号指定 : (n)
+        - 末尾からの奇数 : odd
+        - 末尾からの偶数 : even
+        - 末尾からのM要素目からすべて : n+M
+        - 末尾からのM要素目より前すべて : -n+M
+        - 末尾からのM要素目からN間隔 : Nn+M
     + first-of-type :
     + last-of-type :
     + nth-of-type :
