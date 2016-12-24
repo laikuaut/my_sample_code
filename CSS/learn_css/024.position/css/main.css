@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+}
+
+.box-name {
+    background-color: white;
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0px;
+}
+
+#box1, #box2, #box3, #box4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#box1-1, #box2-1, #box3-1, #box4-1,
+#box1-2, #box2-2, #box3-2, #box4-2,
+#box1-3, #box2-3, #box3-3, #box4-3,
+#box1-4, #box2-4, #box3-4, #box4-4 {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+#box1 {
+    background-color: red;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: skyblue;
+}
+#box4 {
+    background-color: purple;
+}
+#box1-1, #box1-2, #box1-3, #box1-4 {
+    background-color: yellow;
+}
+#box2-1, #box2-2, #box2-3, #box2-4 {
+    background-color: blue;
+}
+#box3-1, #box3-2, #box3-3, #box3-4 {
+    background-color: green;
+}
+#box4-1, #box4-2, #box4-3, #box4-4 {
+    background-color: violet;
+}
+
+#box1 {
+    /*基準点はウィンドウ*/
+    position: absolute;
+    left: 210px;
+}
+
+#box2 {
+    /*基準点はウィンドウ*/
+    position: static;
+}
+
+#box3 {
+    /*基準点はbox2の下*/
+    position: relative;
+    left: 210px;
+}
+
+#box4 {
+    /*基準点はウィンドウ*/
+    position: fixed;
+    top: 0px;
+    left: 420px;
+}
+
+#box1-1 {
+    /*基準点はbox1の左上*/
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+#box1-2 {
+    /*基準点はbox1の左上*/
+    position: static;
+}
+#box1-3 {
+    /*基準点はbox1-2の下*/
+    position: relative;
+    left: 50px;
+    top: 0px;
+}
+#box1-4 {
+    /*基準点はウィンドウ*/
+    position: fixed;
+    left: 150px;
+    top: 150px;
+}
