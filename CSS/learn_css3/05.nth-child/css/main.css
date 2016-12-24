@@ -49,9 +49,12 @@ li {
 #sample14 li:nth-last-child(3n+2) {
     background-color: pink;
 }
-#sample15 li:nth-child(odd) {
+#sample15 li:last-child {
     background-color: pink;
 }
-#sample15 li:nth-child(even) {
+#sample16 li:nth-child(odd) {
+    background-color: pink;
+}
+#sample16 li:nth-child(even) {
     background-color: skyblue;
 }
