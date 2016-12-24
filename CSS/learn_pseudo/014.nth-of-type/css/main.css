@@ -1,0 +1,84 @@
+ul, div {
+    border: solid 1px black;
+    width: 100px;
+}
+
+li {
+    list-style-type: decimal-leading-zero;
+}
+
+#sample0 li:first-of-type {
+    background-color: pink;
+}
+#sample1 li:nth-of-type(3) {
+    background-color: pink;
+}
+#sample2 li:nth-of-type(odd) {
+    background-color: pink;
+}
+#sample3 li:nth-of-type(even) {
+    background-color: pink;
+}
+#sample4 li:nth-of-type(n+4) {
+    background-color: pink;
+}
+#sample5 li:nth-of-type(-n+3) {
+    background-color: pink;
+}
+#sample6 li:nth-of-type(3n+1) {
+    background-color: pink;
+}
+#sample7 li:nth-of-type(3n+2) {
+    background-color: pink;
+}
+#sample8 li:nth-last-of-type(3) {
+    background-color: pink;
+}
+#sample9 li:nth-last-of-type(odd) {
+    background-color: pink;
+}
+#sample10 li:nth-last-of-type(even) {
+    background-color: pink;
+}
+#sample11 li:nth-last-of-type(n+4) {
+    background-color: pink;
+}
+#sample12 li:nth-last-of-type(-n+3) {
+    background-color: pink;
+}
+#sample13 li:nth-last-of-type(3n+1) {
+    background-color: pink;
+}
+#sample14 li:nth-last-of-type(3n+2) {
+    background-color: pink;
+}
+#sample15 li:last-of-type {
+    background-color: pink;
+}
+#sample16 li:nth-of-type(odd) {
+    background-color: pink;
+}
+#sample16 li:nth-of-type(even) {
+    background-color: skyblue;
+}
+#sample17 *:first-of-type {
+    background-color: pink;
+}
+#sample18 h1:first-of-type {
+    background-color: pink;
+}
+#sample19 p:first-of-type {
+    background-color: pink;
+}
+#sample20 p:nth-of-type(2) {
+    background-color: pink;
+}
+#sample21 *:only-of-type {
+    background-color: pink;
+}
+#sample22 *:only-of-type {
+    background-color: pink;
+}
+#sample23 *:only-of-type {
+    background-color: pink;
+}
