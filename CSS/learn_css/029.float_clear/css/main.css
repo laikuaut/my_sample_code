@@ -1,0 +1,26 @@
+body {
+    width: 1000px;
+}
+
+h1, h2, p {
+    border: solid 1px pink;
+}
+
+#float1 {
+    float: right;
+    width: 100px;
+}
+#float2 {
+    float: left;
+    width: 100px;
+}
+
+#clear1 {
+    clear: right;
+}
+#clear2 {
+    clear: left;
+}
+#clear3 {
+    clear: both;
+}
