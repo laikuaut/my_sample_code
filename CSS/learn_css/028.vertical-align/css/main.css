@@ -1,0 +1,53 @@
+p, span {
+    text-decoration: pink underline overline;
+    border: solid 1px red;
+    font-size: 128px;
+}
+
+span {
+    color: skyblue;
+}
+
+#gparent {
+    color: black;
+    line-height: 200px;
+}
+
+#parent {
+    color: black;
+    font-size: 64px;
+    line-height: 1.0;
+}
+
+#baseline {
+    font-size: 16px;
+    vertical-align: baseline;
+}
+#top {
+    font-size: 16px;
+    vertical-align: top;
+}
+#middle {
+    font-size: 16px;
+    vertical-align: middle;
+}
+#bottom {
+    font-size: 16px;
+    vertical-align: bottom;
+}
+#text-top {
+    font-size: 16px;
+    vertical-align: text-top;
+}
+#text-bottom {
+    font-size: 16px;
+    vertical-align: text-bottom;
+}
+#super {
+    font-size: 16px;
+    vertical-align: super;
+}
+#sub {
+    font-size: 16px;
+    vertical-align: sub;
+}
