@@ -1,0 +1,14 @@
+/*a[b^=c] (CSS3)*/
+a[href^="http:"] {
+    font-size : 32px;
+}
+
+/*a[b$=c] (CSS3)*/
+a[href$=".ne.jp"] {
+    color: skyblue;
+}
+
+/*a[b*=c] (CSS3)*/
+a[href*=yahoo] {
+    color: blue;
+}
