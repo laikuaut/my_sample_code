@@ -11,6 +11,8 @@ h1, p, span {
 }
 
 p, span {
-    display: inline;
-    width: 50px; /* インライン要素のためwidth指定はできない */
+    display: list-item;
+    width: 50px;
+    margin-left: 20px;
+    list-style-type: decimal-leading-zero;
 }

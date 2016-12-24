@@ -9,8 +9,3 @@ h1, p, span {
     border: 1px black solid;
     margin: 10px;
 }
-
-p, span {
-    display: inline;
-    width: 50px; /* インライン要素のためwidth指定はできない */
-}

@@ -11,6 +11,5 @@ h1, p, span {
 }
 
 p, span {
-    display: inline;
-    width: 50px; /* インライン要素のためwidth指定はできない */
+    display: none;
 }

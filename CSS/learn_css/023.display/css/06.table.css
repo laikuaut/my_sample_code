@@ -1,0 +1,39 @@
+h1, p, span {
+    border: orange 1px solid;
+    font-size: 12px;
+}
+
+.block, .inline {
+    width: 300px;
+    padding: 10px;
+    border: 1px black solid;
+    margin: 10px;
+}
+
+.table {
+    display: table;
+    margin: 10px;
+}
+
+.table-header {
+    display: table-header-group;
+    background-color: pink;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    width: 50px;
+}
+
+.table-body {
+    display: table-row-group;
+    background-color: skyblue;
+}
+
+.inline-table {
+    display: inline-table;
+}
