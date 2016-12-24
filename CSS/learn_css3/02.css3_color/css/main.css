@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+#box1 {
+    background-color: rgb(255, 0, 0);
+}
+#box2 {
+    background-color: rgba(0, 0, 255, .5);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#box3 {
+    background-color: hsl(180, 100%, 70%);
+}
+#box4 {
+    background-color: hsl(180, 100%, 30%);
+}
+#box5 {
+    background-color: hsl(180, 50%, 70%);
+}
+#box6 {
+    background-color: hsla(0, 50%, 50%, .5);
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
