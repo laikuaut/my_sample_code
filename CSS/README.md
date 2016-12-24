@@ -122,11 +122,11 @@
     + empty : 空の要素にスタイルを適用する
     + target : アンカーリンクの飛んだ先にスタイルを適用する
 * UI要素状態疑似クラス(CSS3)
-    + enabled :
-    + disabled :
-    + checked :
+    + enabled : UI要素がenabledの要素にスタイルを適用する
+    + disabled : UI要素がdisabledの要素にスタイルを適用する
+    + checked : チェック状態のUI要素にスタイルを適用する
 * 否定疑似クラス(CSS3)
-    + not :
+    + not : 指定した要素を含まない要素にスタイルを適用する
 
 ## 詳細度
 
