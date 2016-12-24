@@ -302,7 +302,16 @@ CSSのボックスモデルは以下のようになっている。
     + list-item : li要素のようにリスト内容が収められるブロックボックスと、リストマーカーのためのマーカーボックスを生成する
     + inline-block : インラインレベルのブロックコンテナを生成する。要素全体としてはインライン要素のような表示形式だが、内部はブロックボックスで高さ・横幅などを指定できる
     + none : 要素が表示されず、レイアウトに影響を与えない
-    + table
+    + table : table要素のような表示となる
+    + inline-table : インラインレベルのテーブルとなる
+        - table-row-group : tbody要素のような表示となる
+        - table-header-group : thead要素のような表示となる
+        - table-footer-group : tfoot要素のような表示となる
+        - table-row : tr要素のような表示となる
+        - table-column-group : colgroup要素のような表示となる
+        - table-column : col要素のような表示となる
+        - table-cell : td要素のような表示となる
+        - table-caption : caption要素のような表示となる
 
 ## 参考URL
 
