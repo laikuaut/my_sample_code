@@ -58,3 +58,15 @@ li {
 #sample16 li:nth-child(even) {
     background-color: skyblue;
 }
+#sample17 *:first-child {
+    background-color: pink;
+}
+#sample18 h1:first-child {
+    background-color: pink;
+}
+#sample19 p:first-child {
+    background-color: pink;
+}
+#sample20 p:nth-child(2) {
+    background-color: pink;
+}
