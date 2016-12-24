@@ -1,0 +1,3 @@
+li:not(.sample) {
+    background-color: pink;
+}
