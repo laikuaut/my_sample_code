@@ -4,7 +4,7 @@ HTML5のサンプルソース置き場
 
 ## サンプルソース
 
-* learn_sample
+* primer_html5
     + HTML5の基礎サンプル
 
 ## メモ

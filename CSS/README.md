@@ -2,11 +2,11 @@
 
 ## サンプルコード
 
-* learn_css
+* primer_css
     + CSS2.1の基礎サンプルコード
-* leern_css3
+* primer_css3
     + CSS3の基礎サンプルコード
-* learn_pseudo
+* primer_pseudo
     + 疑似クラス / 疑似要素 のサンプルコード
 
 ## CSSの要素
