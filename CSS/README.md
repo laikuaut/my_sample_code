@@ -422,6 +422,8 @@ CSSのボックスモデルは以下のようになっている。
         - background-image: linear-gradient(-90deg, 色1, 色2);
     + カラーストップ(0% : 開始点、100% : 終了点)
         - background-image: linear-gradient(色1 20%, 色2 70%, 色3 80%);
+* repeating-linear-gradient : 線形グラデーションの繰り返しを生成
+    + background-image: repeating-linear-gradient(色1, 色2 長さ);
 
 ## 参考URL
 
