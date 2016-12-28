@@ -1,0 +1,94 @@
+h1 {
+    font-size: 16px;
+    display: list-item;
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    border: black 1px solid;
+}
+
+#box1 {
+    background-image: linear-gradient(blue, skyblue);
+}
+#box2 {
+    background-image: linear-gradient(to left, blue, pink, skyblue);
+}
+#box3 {
+    background-image: linear-gradient(to right, blue, pink, skyblue);
+}
+#box4 {
+    background-image: linear-gradient(to top, blue, pink, skyblue);
+}
+#box5 {
+    background-image: linear-gradient(to bottom, blue, pink, skyblue);
+}
+#box6 {
+    background-image: linear-gradient(to left top, blue, pink, skyblue);
+}
+#box7 {
+    background-image: linear-gradient(to left bottom, blue, pink, skyblue);
+}
+#box8 {
+    background-image: linear-gradient(to right top, blue, pink, skyblue);
+}
+#box9 {
+    background-image: linear-gradient(to right bottom, blue, pink, skyblue);
+}
+#box10 {
+    background-image: linear-gradient(0deg, blue, pink, skyblue);
+}
+#box11 {
+    background-image: linear-gradient(5deg, blue, pink, skyblue);
+}
+#box12 {
+    background-image: linear-gradient(10deg, blue, pink, skyblue);
+}
+#box13 {
+    background-image: linear-gradient(35deg, blue, pink, skyblue);
+}
+#box14 {
+    background-image: linear-gradient(45deg, blue, pink, skyblue);
+}
+#box15 {
+    background-image: linear-gradient(55deg, blue, pink, skyblue);
+}
+#box16 {
+    background-image: linear-gradient(80deg, blue, pink, skyblue);
+}
+#box17 {
+    background-image: linear-gradient(90deg, blue, pink, skyblue);
+}
+#box18 {
+    background-image: linear-gradient(100deg, blue, pink, skyblue);
+}
+#box19 {
+    background-image: linear-gradient(125deg, blue, pink, skyblue);
+}
+#box20 {
+    background-image: linear-gradient(135deg, blue, pink, skyblue);
+}
+#box21 {
+    background-image: linear-gradient(145deg, blue, pink, skyblue);
+}
+#box22 {
+    background-image: linear-gradient(170deg, blue, pink, skyblue);
+}
+#box23 {
+    background-image: linear-gradient(180deg, blue, pink, skyblue);
+}
+#box24 {
+    background-image: linear-gradient(to right, blue 20%, pink 70%, skyblue 80%);
+}
+#box25 {
+    background-image: linear-gradient(to right, blue 20%, pink 30%, skyblue 80%);
+}
+#box26 {
+    background-image: repeating-linear-gradient(to right, blue, pink 30px);
+}
+#box27 {
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255, .8)), url(master.png);
+}

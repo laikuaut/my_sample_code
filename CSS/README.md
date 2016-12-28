@@ -400,6 +400,29 @@ CSSのボックスモデルは以下のようになっている。
     + super : 上付き文字
     + sub : 下付き文字
 
+### グラデーション(CSS3)
+
+* linear-gradient : 線形グラデーションを生成する(プロパティではなく、background-imageの値)
+    + 単純な線形グラデーション(色を複数指定(2以上))
+        - background-image: linear-gradient(色1, 色2);
+        - background-image: linear-gradient(色1, 色2, 色3);
+    + 方向指定の線形グラデーション(to 方向1 (方向2)? : 終点の位置指定(top left right bottom))
+        - background-image: linear-gradient(to left, 色1, 色2);
+        - background-image: linear-gradient(to right, 色1, 色2);
+        - background-image: linear-gradient(to top, 色1, 色2);
+        - background-image: linear-gradient(to bottom,色1, 色2);
+        - background-image: linear-gradient(to left top, 色1, 色2);
+        - background-image: linear-gradient(to left bottom, 色1, 色2);
+        - background-image: linear-gradient(to right top, 色1, 色2);
+        - background-image: linear-gradient(to right bottom, 色1, 色2);
+    + 角度指定の線形グラデーション
+        - background-image: linear-gradient(0deg, 色1, 色2);
+        - background-image: linear-gradient(90deg, 色1, 色2);
+        - background-image: linear-gradient(180deg, 色1, 色2);
+        - background-image: linear-gradient(-90deg, 色1, 色2);
+    + カラーストップ(0% : 開始点、100% : 終了点)
+        - background-image: linear-gradient(色1 20%, 色2 70%, 色3 80%);
+
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
