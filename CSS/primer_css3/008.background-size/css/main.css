@@ -1,0 +1,31 @@
+div {
+    width: 20%;
+    height: 100px;
+    border: solid blue 1px;
+    background-color: pink;
+    background-image: url("master.png");
+    background-repeat: no-repeat;
+}
+
+#box1 {
+    /*画像の横幅を要素幅の100%、画像の縦幅は横幅に合わせて画像比率を維持*/
+    background-size: 100%;
+}
+#box2 {
+    /*画像の縦横幅を要素の50%にする*/
+    background-size: 50% 50%;
+}
+#box3 {
+    background-size: cover;
+}
+#box4 {
+    background-size: contain;
+}
+#box5 {
+    background-size: contain;
+    background-position: 50% 50%;
+}
+#box6 {
+    background-size: cover;
+    background-position: 50% 50%;
+}
