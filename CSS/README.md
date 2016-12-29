@@ -434,6 +434,20 @@ CSSのボックスモデルは以下のようになっている。
         - background-image: radial-gradient(at X座標 Y座標, 色1, 色2)
 * repeating-radial-gradient : 円形グラデーションの繰り返しを生成する
 
+## CSSリセット
+
+リセットCSSとは、冒頭でも述べたとおり各ブラウザがデフォルトで持つCSSをリセットするために用いるCSSのこと。
+
+### [YUI LibraryのリセットCSS](http://yuilibrary.com/yui/docs/cssreset/)
+
+### [Eric Meyer’s Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
+
+### [HTML5 Doctor Reset CSS](http://html5doctor.com/html-5-reset-stylesheet/)
+
+### [nomalize.css](http://necolas.github.io/normalize.css/)
+
+### [sanitize.css](https://github.com/jonathantneal/sanitize.css)
+
 ## 参考URL
 
 * [W3C CSS2.1](https://www.w3.org/TR/CSS21/)
