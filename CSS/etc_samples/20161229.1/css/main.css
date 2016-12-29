@@ -1,0 +1,33 @@
+html, head, body, h1, h2, h3, h4, h5, h6, p, div, section, nav, article {
+    margin: 0;
+    widht: 100%;
+}
+
+html {
+    height: 100%;
+    background-color: white;
+}
+
+body {
+    width: 90%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: solid rgb(221, 12, 161) 3px;
+    border-right: solid rgb(221, 12, 161) 3px;
+}
+
+header {
+    position: relative;
+    background-image: repeating-linear-gradient(to top, rgba(255, 209, 179, .5), rgba(255, 209, 179, 1) 20px);
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    font-size: 32px;
+}

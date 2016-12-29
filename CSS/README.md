@@ -8,6 +8,8 @@
     + CSS3の基礎サンプルコード
 * primer_pseudo
     + 疑似クラス / 疑似要素 のサンプルコード
+* etc_samples
+    + etcサンプル
 
 ## CSSの要素
 
@@ -406,7 +408,7 @@ CSSのボックスモデルは以下のようになっている。
     + 単純な線形グラデーション(色を複数指定(2以上))
         - background-image: linear-gradient(色1, 色2);
         - background-image: linear-gradient(色1, 色2, 色3);
-    + 方向指定の線形グラデーション(to 方向1 (方向2)? : 終点の位置指定(top left right bottom))
+    + 方向指定の線形グラデーション(to X方向 Y方向 : 終点の位置指定(top left right bottom))
         - background-image: linear-gradient(to left, 色1, 色2);
         - background-image: linear-gradient(to right, 色1, 色2);
         - background-image: linear-gradient(to top, 色1, 色2);
@@ -424,6 +426,13 @@ CSSのボックスモデルは以下のようになっている。
         - background-image: linear-gradient(色1 20%, 色2 70%, 色3 80%);
 * repeating-linear-gradient : 線形グラデーションの繰り返しを生成
     + background-image: repeating-linear-gradient(色1, 色2 長さ);
+* radial-gradient : 円形グラデーションを生成する(プロパティではなく、background-imageの値)
+    + 単純な線形グラデーション(色を複数指定(2以上))
+        - background-image: radial-gradient(色1, 色2);
+        - background-image: radial-gradient(色1, 色2, 色3);
+    + 開始点を指定(長さ、top bottom left right)
+        - background-image: radial-gradient(at X座標 Y座標, 色1, 色2)
+* repeating-radial-gradient : 円形グラデーションの繰り返しを生成する
 
 ## 参考URL
 

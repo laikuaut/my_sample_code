@@ -1,0 +1,56 @@
+h1 {
+    display: list-item;
+    margin-left: 30px;
+    font-size: 16px;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+.sample {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#box1 {
+    background-image: radial-gradient(skyblue, red);
+}
+#box2 {
+    background-image: radial-gradient(white, black, blue);
+}
+#box3 {
+    background-image: radial-gradient(at left top, white, black);
+}
+#box4 {
+    background-image: radial-gradient(at top, white, black);
+}
+#box5 {
+    background-image: radial-gradient(at right top, white, black);
+}
+#box6 {
+    background-image: radial-gradient(at right, white, black);
+}
+#box7 {
+    background-image: radial-gradient(at right bottom, white, black);
+}
+#box8 {
+    background-image: radial-gradient(at bottom, white, black);
+}
+#box9 {
+    background-image: radial-gradient(at left bottom, white, black);
+}
+#box10 {
+    background-image: radial-gradient(at left, white, black);
+}
+#box11 {
+    background-image: radial-gradient(at 50px 50px, white, black);
+}
+#box12 {
+    background-image: radial-gradient(20px at 50px 50px, white, black);
+}
+#box13 {
+    background-image: radial-gradient(20px at 50px 50px, white, black, blue);
+}
+#box14 {
+    background-image: repeating-radial-gradient(white, black 20px);
+}
