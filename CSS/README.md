@@ -442,21 +442,74 @@ CSSのボックスモデルは以下のようになっている。
 
 [YUI LibraryのリセットCSS](http://yuilibrary.com/yui/docs/cssreset/)
 
+#### 読み込み方法  
+
+HTMLファイルから読み込み
+
+```html
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+```
+
+CSSファイルから読み込み
+
+```css
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+```
+
 ### Eric Meyer’s Reset CSS
 
-[Eric Meyer’s Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
+[Eric Meyer’s Reset CSS](http://meyerweb.com/eric/tools/css/reset/)  
+
+```css
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
+```
 
 ### HTML5 Doctor Reset CSS
 
 [HTML5 Doctor Reset CSS](http://html5doctor.com/html-5-reset-stylesheet/)
 
+```css
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body {line-height:1;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}nav ul {list-style:none;}blockquote, q {quotes:none;}blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}a {margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}/* change colours to suit your needs */ins {background-color:#ff9;color:#000;text-decoration:none;}/* change colours to suit your needs */mark {background-color:#ff9;color:#000; font-style:italic;font-weight:bold;}del {text-decoration: line-through;}abbr[title], dfn[title] {border-bottom:1px dotted;cursor:help;}table {border-collapse:collapse;border-spacing:0;}/* change border colour to suit your needs */hr {display:block;height:1px;border:0;   border-top:1px solid #cccccc;margin:1em 0;padding:0;}input, select {vertical-align:middle;}
+```
+
 ### nomalize.css
 
 [nomalize.css](http://necolas.github.io/normalize.css/)
 
+```css
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+html {font-family: sans-serif; line-height: 1.15; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }body {margin: 0;}article,aside,footer,header,nav,section {display: block;}h1 {font-size: 2em;margin: 0.67em 0;}figcaption,figure,main { display: block;}figure {margin: 1em 40px;}hr {box-sizing: content-box; height: 0; overflow: visible; }pre {font-family: monospace, monospace; font-size: 1em; }a {background-color: transparent; -webkit-text-decoration-skip: objects; }a:active,a:hover {outline-width: 0;}abbr[title] {border-bottom: none; text-decoration: underline; text-decoration: underline dotted; }b,strong {font-weight: inherit;}b,strong {font-weight: bolder;}code,kbd,samp {font-family: monospace, monospace; font-size: 1em; }dfn {font-style: italic;}mark {background-color: #ff0;color: #000;}small {font-size: 80%;}sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}sub {bottom: -0.25em;}sup {top: -0.5em;}audio,video {display: inline-block;}audio:not([controls]) {display: none;height: 0;}img {border-style: none;}svg:not(:root) {overflow: hidden;}button,input,optgroup,select,textarea {font-family: sans-serif; font-size: 100%; line-height: 1.15; margin: 0; }button,input { overflow: visible;}button,select { text-transform: none;}button,html [type="button"], [type="reset"],[type="submit"] {-webkit-appearance: button; }button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {border-style: none;padding: 0;}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring {outline: 1px dotted ButtonText;}fieldset {border: 1px solid #c0c0c0;margin: 0 2px;padding: 0.35em 0.625em 0.75em;}legend {box-sizing: border-box; color: inherit; display: table; max-width: 100%; padding: 0; white-space: normal; }progress {display: inline-block; vertical-align: baseline; }textarea {overflow: auto;}[type="checkbox"],[type="radio"] {box-sizing: border-box; padding: 0; }[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {height: auto;}[type="search"] {-webkit-appearance: textfield; outline-offset: -2px; }[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}::-webkit-file-upload-button {-webkit-appearance: button; font: inherit; }details, menu {display: block;}summary {display: list-item;}canvas {display: inline-block;}template {display: none;}[hidden] {display: none;}
+```
+
 ### sanitize.css
 
 [sanitize.css](https://github.com/jonathantneal/sanitize.css)
+
+```css
+/*! sanitize.css v4.1.0 | CC0 License | github.com/jonathantneal/sanitize.css */
+
+article,aside,details, figcaption,figure,footer,header,main, menu,nav,section,summary { display: block;}audio,canvas,progress,video {display: inline-block;}audio:not([controls]) {display: none;height: 0;}template, [hidden] {display: none;}*,::before,::after {background-repeat: no-repeat; box-sizing: inherit; }::before,::after {text-decoration: inherit; vertical-align: inherit; }html {box-sizing: border-box; cursor: default; font-family: sans-serif; line-height: 1.5; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }body {margin: 0;}h1 {font-size: 2em;margin: .67em 0;}code,kbd,pre,samp {font-family: monospace, monospace; font-size: 1em; }hr {height: 0; overflow: visible; }nav ol,nav ul {list-style: none;}abbr[title] {border-bottom: 1px dotted; text-decoration: none; }b,strong {font-weight: inherit;}b,strong {font-weight: bolder;}dfn {font-style: italic;}mark {background-color: #ffff00;color: #000000;}progress {vertical-align: baseline;}small {font-size: 83.3333%;}sub,sup {font-size: 83.3333%; line-height: 0;position: relative;vertical-align: baseline;}sub {bottom: -.25em;}sup {top: -.5em;}::-moz-selection {background-color: #b3d4fc; color: #000000; text-shadow: none;}::selection {background-color: #b3d4fc; color: #000000; text-shadow: none;}audio,canvas,iframe,img,svg,video {vertical-align: middle;}img {border-style: none;}svg {fill: currentColor;}svg:not(:root) {overflow: hidden;}a {background-color: transparent; -webkit-text-decoration-skip: objects; }a:hover {outline-width: 0;}table {border-collapse: collapse;border-spacing: 0;}button,input,select,textarea {background-color: transparent; border-style: none; color: inherit; font-size: 1em; margin: 0; }button,input { overflow: visible;}button,select { text-transform: none;}button,html [type="button"], [type="reset"],[type="submit"] {-webkit-appearance: button; }::-moz-focus-inner {border-style: none;padding: 0;}:-moz-focusring {outline: 1px dotted ButtonText;}fieldset {border: 1px solid #c0c0c0;margin: 0 2px;padding: .35em .625em .75em;}legend {display: table; max-width: 100%; padding: 0; white-space: normal; }textarea {overflow: auto; resize: vertical; }[type="checkbox"],[type="radio"] {padding: 0;}::-webkit-inner-spin-button,::-webkit-outer-spin-button {height: auto;}[type="search"] {-webkit-appearance: textfield; outline-offset: -2px; }::-webkit-search-cancel-button,::-webkit-search-decoration {-webkit-appearance: none;}::-webkit-input-placeholder {color: inherit;opacity: .54;}::-webkit-file-upload-button {-webkit-appearance: button; font: inherit; }[aria-busy="true"] {cursor: progress;}[aria-controls] {cursor: pointer;}[aria-disabled] {cursor: default;}a,area,button,input,label,select,textarea,[tabindex] {-ms-touch-action: manipulation; touch-action: manipulation;}[hidden][aria-hidden="false"] {clip: rect(0, 0, 0, 0);display: inherit;position: absolute;}[hidden][aria-hidden="false"]:focus {clip: auto;}
+```
 
 ## 参考URL
 
