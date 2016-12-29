@@ -438,15 +438,25 @@ CSSのボックスモデルは以下のようになっている。
 
 リセットCSSとは、冒頭でも述べたとおり各ブラウザがデフォルトで持つCSSをリセットするために用いるCSSのこと。
 
-### [YUI LibraryのリセットCSS](http://yuilibrary.com/yui/docs/cssreset/)
+### YUI LibraryのリセットCSS
 
-### [Eric Meyer’s Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
+[YUI LibraryのリセットCSS](http://yuilibrary.com/yui/docs/cssreset/)
 
-### [HTML5 Doctor Reset CSS](http://html5doctor.com/html-5-reset-stylesheet/)
+### Eric Meyer’s Reset CSS
 
-### [nomalize.css](http://necolas.github.io/normalize.css/)
+[Eric Meyer’s Reset CSS](http://meyerweb.com/eric/tools/css/reset/)
 
-### [sanitize.css](https://github.com/jonathantneal/sanitize.css)
+### HTML5 Doctor Reset CSS
+
+[HTML5 Doctor Reset CSS](http://html5doctor.com/html-5-reset-stylesheet/)
+
+### nomalize.css
+
+[nomalize.css](http://necolas.github.io/normalize.css/)
+
+### sanitize.css
+
+[sanitize.css](https://github.com/jonathantneal/sanitize.css)
 
 ## 参考URL
 
