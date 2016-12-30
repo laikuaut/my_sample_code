@@ -18,6 +18,7 @@
     - 整数を試してみる
 * 009.float
     - 実数を試してみる
+* byte
 * if
 * for
 * while
