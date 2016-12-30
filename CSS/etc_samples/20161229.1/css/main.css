@@ -1,10 +1,4 @@
-html, head, body, h1, h2, h3, h4, h5, h6, p, div, section, nav, article {
-    margin: 0;
-    widht: 100%;
-}
-
 html {
-    height: 100%;
     background-color: white;
 }
 
@@ -13,8 +7,10 @@ body {
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    border-left: solid rgb(221, 12, 161) 3px;
-    border-right: solid rgb(221, 12, 161) 3px;
+    border-left: solid rgb(221, 12, 161) 2px;
+    border-right: solid rgb(221, 12, 161) 2px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header {
@@ -30,4 +26,44 @@ header h1 {
     position: relative;
     top: 10px;
     font-size: 32px;
+}
+
+.nav1, .nav2, .nav3 {
+    border: solid 1px pink;
+    width: 100px;
+    text-align: center;
+    color: rgba(255, 130, 213, .8);
+    font-family: メイリオ;
+    font-weight: bold;
+    background-color: rgba(203, 247, 255, 1);
+    border-radius: 20px;
+    height: 24px;
+}
+
+.nav1 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+}
+
+.nav2, .nav3 {
+    display:none;
+    overflow: visible;
+}
+
+.nav1:hover > .nav2 {
+    display: block;
+    float: left;
+}
+
+.nav2:hover > .nav3 {
+    display: block;
+    transform: translate(100px, -24px);
+}
+
+section {
+    clear: left;
+    margin-top: 50px;
 }
