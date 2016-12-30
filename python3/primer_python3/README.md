@@ -4,3 +4,39 @@
     - Python3のHello worldを書いてみる
 * 002.operator
     - 四則演算をしてみる
+* 003.list
+    - リストを試してみる
+* 004.dict
+    - 辞書を試してみる
+* 005.set
+    - 集合を試してみる
+* 006.tuple
+    - タプルを試してみる
+* 007.string
+    - 文字列を試してみる
+* 008.int
+    - 整数を試してみる
+* 009.float
+    - 実数を試してみる
+* if
+* for
+* while
+* range
+* break
+* contiue
+* loop-else
+* pass
+* func
+* file-read
+* file-write
+* try
+* raise
+* module
+* package
+* class
+* inheritance
+* iterator
+* generator
+* generator-expressions
+* list-comprehension
+    + 内包リスト
