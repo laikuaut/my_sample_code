@@ -432,6 +432,18 @@ CSSのボックスモデルは以下のようになっている。
         - background-image: radial-gradient(色1, 色2, 色3);
     + 開始点を指定(長さ、top bottom left right)
         - background-image: radial-gradient(at X座標 Y座標, 色1, 色2)
+    + グラデーションの形状(circle, ellipse)
+        - background-image: radial-gradient(ellipse 50px 30px, white, black);
+        - background-image: radial-gradient(circle 50px, white, black);
+    + キーワードからサイズ指定
+        - closest-side : ボックスの一番近い辺に合わせる
+            + background-image: radial-gradient(ellipse closest-side at 80px 50px, white, black);
+        - closest-corner : ボックスの一番近い角に合わせる
+            + background-image: radial-gradient(ellipse closest-corner at 80px 50px, white, black);
+        - farthest-side : ボックスの一番遠い辺に合わせる
+            + background-image: radial-gradient(ellipse farthest-side at 80px 50px, white, black);
+        - farthest-corner : ボックスの一番遠い角に合わせる
+            + background-image: radial-gradient(ellipse farthest-corner at 80px 50px, white, black);
 * repeating-radial-gradient : 円形グラデーションの繰り返しを生成する
 
 ## CSSリセット
