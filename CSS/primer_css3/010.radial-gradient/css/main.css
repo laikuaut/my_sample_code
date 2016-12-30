@@ -54,3 +54,36 @@ h1 {
 #box14 {
     background-image: repeating-radial-gradient(white, black 20px);
 }
+#box15 {
+    background-image: radial-gradient(circle 50px, white, black);
+}
+#box16 {
+    background-image: radial-gradient(ellipse 30px 50px, white, black);
+}
+#box17 {
+    background-image: radial-gradient(ellipse 50px 30px, white, black);
+}
+#box18 {
+    background-image: radial-gradient(ellipse closest-side at 80px 50px, white, black);
+}
+#box19 {
+    background-image: radial-gradient(ellipse closest-corner at 80px 50px, white, black);
+}
+#box20 {
+    background-image: radial-gradient(ellipse farthest-side at 80px 50px, white, black);
+}
+#box21 {
+    background-image: radial-gradient(ellipse farthest-corner at 80px 50px, white, black);
+}
+#box22 {
+    background-image: radial-gradient(circle closest-side at 80px 50px, white, black);
+}
+#box23 {
+    background-image: radial-gradient(circle closest-corner at 80px 50px, white, black);
+}
+#box24 {
+    background-image: radial-gradient(circle farthest-side at 80px 50px, white, black);
+}
+#box25 {
+    background-image: radial-gradient(circle farthest-corner at 80px 50px, white, black);
+}
