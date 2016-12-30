@@ -17,6 +17,7 @@ def main():
         sample.append(i)
     print(sample)
 
+    # 内包リストで作成
     sample = [i for i in range(5)]
     print(sample)
 
