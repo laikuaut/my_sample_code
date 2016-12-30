@@ -30,7 +30,7 @@ header h1 {
 
 .nav1, .nav2, .nav3 {
     border: solid 1px pink;
-    width: 100px;
+    width: 150px;
     text-align: center;
     color: rgba(255, 130, 213, .8);
     font-family: メイリオ;
@@ -60,7 +60,17 @@ header h1 {
 
 .nav2:hover > .nav3 {
     display: block;
-    transform: translate(100px, -24px);
+    transform: translate(150px, -24px);
+}
+
+.nav3:hover > .nav3 {
+    display: block;
+    transform: translate(150px, -24px);
+}
+
+div:hover {
+    color: skyblue;
+    background: pink;
 }
 
 section {
