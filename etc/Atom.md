@@ -99,3 +99,9 @@ Atom からgitを操作
 cssの色をカラーパレットから作成
 
 * カラーパレットを開く : Ctrl + Alt + C
+
+### atom runner
+
+スクリプトを実装する
+
+* 実行 : Ctrl + `
