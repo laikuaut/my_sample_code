@@ -35,7 +35,7 @@
 * module
 * package
 * class
-* inheritance
+* class-inheritance
 * iterator
 * generator
 * generator-expressions
