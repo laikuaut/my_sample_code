@@ -87,3 +87,9 @@ h1 {
 #box25 {
     background-image: radial-gradient(circle farthest-corner at 80px 50px, white, black);
 }
+#box26 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50%;
+    background-image: radial-gradient(white, green);
+}
