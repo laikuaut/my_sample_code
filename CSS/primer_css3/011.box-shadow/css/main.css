@@ -1,0 +1,30 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin-top: 50px;
+}
+
+.box1 {
+    box-shadow: 10px 10px;
+}
+
+.box2 {
+    box-shadow: 10px 10px 5px;
+}
+
+.box3 {
+    box-shadow: 10px 10px 5px 10px;
+}
+
+.box4 {
+    box-shadow: 10px 10px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.box5 {
+    box-shadow: 10px 10px 5px 10px rgba(0, 0, 0, 0.8) inset;
+}
+
+.box6 {
+    box-shadow: 10px 10px 5px 10px rgba(0, 0, 0, 0.8) inset, 10px 10px 5px 10px skyblue;
+}
